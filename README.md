@@ -1,9 +1,9 @@
 # Java-Basic
 This repository is the result of learning the basic Java programming language
 
-
-
-This repository is the result of learning the basic Java programming language
+.
+..
+...
 
 yeahhh... so many things have gone through trying to learn this new thing, 
 but you know?, wht they say...
