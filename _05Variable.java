@@ -14,26 +14,28 @@ public class _05Variable {
         name1 = "I love Java";
         System.out.println(name1);
 
-
-        /* var dirilis pada java versi 10
-           dengan 'var', Tipe_Data tidak perlu dituliskan
-           langsung -> Tipe_Data = Value
-
-           saat membuat variable dengan 'var' nilai/value dari Tipe_Data
-           harus langsung di isi, jika tidak akan langsung Error
-
-           var Nama_Variable = value
-
-       */
-
         int thisVariableNumber;
         thisVariableNumber = 1;
         System.out.println(thisVariableNumber + 1);
+
+        /* var dirilis pada java versi 10
+           dengan menggunakan 'var', jenis Tipe_Data tidak perlu dituliskan.
+           jadi, langsung -> var Nama_Variable = Value;
+
+           saat membuat variable dengan 'var' nilai/value harus langsung di isi, 
+           jika tidak akan langsung Error.
+
+           var Nama_Variable = value;
+           var name = "Juani";
+           var age  = 21;
 
         // ERROR
 //        var withVar;
 //        withVar = "menggunakan var";
 
+        */
+
+        
         var characterValue = 'A';
         System.out.println(characterValue);
 
@@ -42,7 +44,7 @@ public class _05Variable {
 
 
         /*
-            final, membuat value/nilai sebuah variable yang datanya tidak boleh diubah.
+            final, dipakai untuk membuat value/nilai dari sebuah variable supaya datanya tidak boleh diubah.
             data variable dengan final, tetap dan tidak bisa dimodifikasi.
 
             final Tipe_Data Nama_Variable = Value;
